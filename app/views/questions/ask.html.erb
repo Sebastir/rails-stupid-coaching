@@ -1,0 +1,8 @@
+<h1>Stupid Coach</h1>
+<h3>Ask your coach anything:</h3>
+
+<form action="/answer" method="get" data-turbo="false">
+  <label for="question">Please submit your question</label>
+  <input id="question" type="text" name="question" value= "<%=params[:question] %>">
+  <input type="submit" value="Ask!">
+</form>
